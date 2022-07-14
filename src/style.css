@@ -1,0 +1,174 @@
+html, body{
+    max-width: 100%;
+
+}
+
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/aesthetic-shadow-palm-leaves-pastel-green-background-advertising-your-product-creative-copy-space-design-abstract-236081839.jpg");
+    
+}
+
+button{
+    margin-top: 5%;
+}
+
+form{
+    display: flow-root;
+}
+
+
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    padding-top: 5%;
+    color: #738389;
+
+}
+
+hr{
+  border: dotted #738389 5px;
+  border-bottom: none;
+  width: 4%;
+  margin: auto;
+}
+
+img{
+    max-width: 100%;
+    height: 25%;
+    width: 25%;
+    
+}
+
+input{
+    border: none;
+    border-bottom: 2px #738389;
+}
+
+.big-p{
+    width: 100%;
+}
+
+
+.visa, .mastercard, .amex{
+    
+    display: inline;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    
+    
+}
+
+.card-info{
+    background-color: #BEA29E;
+    text-align: center;
+    width: 40%;
+    height: 65%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 3%;
+    padding-bottom: 2.3%;
+    padding-top: 1.9%;
+}
+
+    
+
+
+
+.card-info, .product-view{
+    display: inline-block;
+}
+
+.checkout{
+    color: #738389;
+    font-family: "Cormorant SC", serif; 
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+
+}
+
+
+.copyright{
+    color: #738389;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cvc{
+    margin-top: 15%;
+}
+
+.logo{
+    margin: 0;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    border: none;
+    
+}
+.payment{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.price{
+    font-size: 1.7rem;
+    font-family: "Cormorant SC", serif;
+    margin-top: 3%;
+    margin-bottom: 0;
+    color: #BEA29E;
+}
+
+
+.product-name{
+    color: #738389;
+    font-family: "Cormorant SC", serif;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 0;
+    display: inline;
+
+    
+}
+
+.product-view{
+    background-color: #fafafa;
+    text-align: center;
+    width: 40%;
+    height: 65%;
+    margin-top: 10%;
+    margin-left: 3%;
+    padding-bottom: 2.5%;
+}
+
+.serum{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.visa{
+    margin-bottom: 5%;
+}
+.mastercard{
+    margin-bottom: 2%;
+
+}
+
+.amex{
+    margin-left: 2%;
+    
+}
+
+#cvc{
+    width: 20%;
+}
+
+#product-details{
+    height: 4px;
+    border-width: 0;
+    color:gray;
+    background-color: gray;
+    
+}
+
+
