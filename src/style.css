@@ -3,26 +3,32 @@ html, body{
 }
 body{
     background-image: url("https://thumbs.dreamstime.com/b/aesthetic-shadow-palm-leaves-pastel-green-background-advertising-your-product-creative-copy-space-design-abstract-236081839.jpg");
+    margin: 0;
+
+}
+
+header{
+    background-color: rgba(245, 245, 245, 0.75);
+    position: sticky;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 7%;
+    padding-top: 2%;
+    
+
 }
 
 hr{
-  border: dotted #EAF6F6 6px;
+  border: dotted #D9D9D9 6px;
   border-bottom: none;
   width: 4%;
   margin: auto;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+label{
     margin-top: 2%;
     
 
-}
-
-label{
-    margin-top: 2%;
 }
 
 .big-p{
@@ -31,6 +37,8 @@ label{
     justify-content: space-evenly;
 }
 
+
+
 .card-info{
     background-color: #BEA29E;
     height: 40%;
@@ -38,31 +46,44 @@ label{
     width: 40%;
 }
 
+
+
+
+
 .product-view{
     background-color: #FAFAFA;
     height: 40%;
     text-align: center;
     width: 40%;
+    margin-top: 0;
+}
+
+.top-container{
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 
 .serum{
-    max-width: 100%;
+    filter: brightness(1.1);
     height: 15%;
     width: 15%;
-    filter: brightness(1.1);
+    max-width: 100%;
     mix-blend-mode: multiply;
 }
 
 .visa, .mastercard, .amex{
-    max-width: 100%;
-    height: 15%;
-    width: 15%;
+    
+    justify-content: space-between;
     filter: brightness(1.1);
+    height: 15%; 
+    max-width: 100%;
     mix-blend-mode: multiply;
+    width: 15%;
+    
 }
 
 #btn{
-    margin-top: 3%;
     margin-bottom: 3%;
+    margin-top: 3%;
 
 }
