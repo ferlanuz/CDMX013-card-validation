@@ -179,3 +179,10 @@ label{
   width: 4%;
   margin: auto;
 }
+
+#puntitos{
+  border: dotted #D9D9D9 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: auto;
+}
