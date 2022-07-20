@@ -10,8 +10,10 @@ console.log(validator);
          let inputValue = e.target.value; //Obtener el valor del evento del input y almacenarlo en una variable
          document.getElementById("cardNumber").value = inputValue. //el input es igual a la variable que contiene el valor
          replace(/\s/g, "").replace(/\D/g, "");
-         
+             
     })
+
+
 
 
 

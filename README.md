@@ -5,7 +5,8 @@
 El proyecto consiste en crear una función que permita al usuario validar un número de tarjeta de crédito.
 
 -PROTOTIPO FINAL-
-(IMG)
+
+![Protoitpo final](https://www.figma.com/file/sw3mtx8zqlUt62RL4ZSsSh/CHECK-OUT-CARD-VALIDATION?node-id=0%3A1)
 
 -INVESTIGACION UX-
 

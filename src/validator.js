@@ -1,5 +1,6 @@
 const validator = {
 
+  
    maskify: valor => valor.slice(0, -4).replace(/./g, "#") + valor.slice(-4),
   
   //función para comenzar a validar el cc number
@@ -11,7 +12,7 @@ const validator = {
   let sumTotal = 0;
   let cont = 1;
   let valor = document.getElementById("cardNumber").value; //0btener data cc number
-
+  
   
   for (let i = 0; i < valor.length; i++) {
     number.push(+valor.charAt(i)); //pushear la data a la variable number
