@@ -13,7 +13,7 @@ const validator = {
   let valor = document.getElementById("cardNumber").value; //0btener data cc number
 
   
-  for (var i = 0; i < valor.length; i++) {
+  for (let i = 0; i < valor.length; i++) {
     number.push(+valor.charAt(i)); //pushear la data a la variable number
   }
   number.reverse(); //voltea el num al revés 
