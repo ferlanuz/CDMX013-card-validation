@@ -47,10 +47,10 @@ header{
 }
 
 hr{
-  border: dotted #D9D9D9 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: auto;
+    border: 2px solid gray;
+    margin-left: 24%;
+    margin-bottom: -0.7%;
+    width: 5%;
 }
 
 label{
@@ -70,8 +70,30 @@ label{
 .card-info{
     background-color: #BEA29E;
     height: 40%;
+    max-height: 100%;
     text-align: center;
     width: 40%;
+}
+
+.carrito{
+    display: flex;justify-content: right;
+    align-items: center;
+    
+    height: 10%;
+    margin-left: 80%;
+    margin-top: 0;
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: multiply;
+    width: 10%;
+
+}
+
+
+.cart{
+    justify-content: flex-end;
+    display: flexbox;
+    
 }
 
 .payment{
@@ -90,8 +112,8 @@ label{
     background-color: rgba(245, 245, 245, 0.75);
     height: 40%;
     text-align: center;
-    width: 40%;
     margin-top: 0;
+    width: 40%;
 }
 
 .top-container{
@@ -101,7 +123,7 @@ label{
 
 .serum{
    
-    height: 30%;
+    height: 50%;
     width: 30%;
     max-width: 100%;
     margin-top: 3%;
@@ -111,9 +133,6 @@ label{
 .social{
     margin-top: 3%;
 }
-    
-    
-
 
 .visa, .mastercard, .amex{
     
@@ -123,13 +142,13 @@ label{
     max-width: 100%;
     mix-blend-mode: multiply;
     margin-bottom: 3%;
-    margin-left: 2%;
-    
+    margin-left: 2%;   
 }
 
 #btn{
     margin-bottom: 3%;
     margin-top: 3%;
+    font-size: large;
 
 }
 #brand{
@@ -138,4 +157,25 @@ label{
 }
 #cardName{
     margin-bottom: 2%;
+}
+
+#footer{
+    border: 1px solid gray;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+#prodstyle{
+    border: 2px solid gray;
+    margin-bottom: 0;
+    margin-left: 71%;
+    width: 5%;
+}
+
+#dot{
+  border: dotted #D9D9D9 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: auto;
 }

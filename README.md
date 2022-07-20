@@ -17,7 +17,8 @@ iii. Prototipo en papel (img)
 
 iv. -FEEDBACK-
 Al realizar elprimer prototipo en papel, no solicité feedback, cuando realicé mi primera demo unicamente se me solicitó realizar el protipo en Figma.
-Después de crear el prototipo en Figma,solicité feedback con mis compañeras y los comentarios fueron positivos, las sugerencias fueron
+Después de crear el prototipo en Figma,solicité feedback con mis compañeras y los comentarios fueron positivos, las sugerencias fueron que cambiara un poco el margen del logo, el background color del product view y hacer el botón de validar un poc mas grande.
+ 
 
 
 

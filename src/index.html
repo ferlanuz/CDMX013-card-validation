@@ -20,44 +20,47 @@
     <header>
       <h4 id="brand">K A B O</h4>
         <h1>Skincare</h1> 
-              
     </header>
     
     <main>
 
+      <hr>
+      <hr id="prodstyle">
       <div class="big-p">
      
-      <div class="product-view">
+       <div class="product-view">
         <h3>YOU ARE PURCHASING</h3><br>
-        <hr>
+        <hr id="dot">
         <h2 class="product-name"><span>Lava Cake</span></h2><br>
         <p class="price"><span>$170</span></p><br>
         <img class="serum" src="https://img.freepik.com/free-photo/grapefruit-oil-serum-bottle-put-white-marble-background_1150-28088.jpg?t=st=1658015439~exp=1658016039~hmac=7b83ad9657def74bb22a89a04be609eaf2afec5ca583ec6b3720ba553bbb64fe&w=996" alt="serum">
-
-      </div>
+        </div>
         
-      <div class="card-info">
-        <h2 class="checkout">Check Out</h2>
-        <hr>
-        <p class="payment">Select Payment Method</p><br>
-        <img class="visa" src="https://img.icons8.com/ios/50/1A1A1A/visa.png" alt="visa.png">
-        <img class="mastercard" src="https://img.icons8.com/ios/50/000000/mastercard.png" alt="mastercard.png">
-        <img class="amex"src="https://img.icons8.com/ios/50/000000/amex.png" alt="amex.png">
-        <form>
+       <div class="card-info">
+         <h2 class="checkout">Check Out</h2>
+         <hr id="puntitos">
+         <p class="payment">Select Payment Method</p><br>
+         <img class="visa" src="https://img.icons8.com/ios/50/1A1A1A/visa.png" alt="visa.png">
+         <img class="mastercard" src="https://img.icons8.com/ios/50/000000/mastercard.png" alt="mastercard.png">
+         <img class="amex"src="https://img.icons8.com/ios/50/000000/amex.png" alt="amex.png">
+
+          <form>
           <label for="card name">Cardholder Name</label><br>
           <input type="text" id="cardName" placeholder="Name"><br>
 
           <label for="card number">Card Number</label><br>
-          <input type="text" id="cardNumber" placeholder="Number"><br>
+          <input type="text" id="cardNumber" placeholder="Number" maxlength="16"><br>
 
-          <button type="button" id="btn">Validar</button>
-          
-        </form>
+          <button type="button" id="btn">Validar</button>  
+          </form>
+        </div>
+
+       </div>
 
     </main>
 
     <footer>
-
+       <hr id="footer">
       <div>
         <a href="https://www.facebook.com/profile.php?id=100078502457953">
           <img class="social" src="https://img.icons8.com/doodle/30/000000/facebook-new.png" alt="facebook">
@@ -72,7 +75,7 @@
       <p>2022 © Lanuz Corp. All rights reserved</p>
 
     </footer>   
-       
+      
     <script src="index.js" type="module"></script>
   </body>
 </html>

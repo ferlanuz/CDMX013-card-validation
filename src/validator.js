@@ -1,8 +1,8 @@
 const validator = {
-
-//función para comenzar a validar el cc number
-  cardValidation: function cardValidation(){
-
+  
+  //función para comenzar a validar el cc number
+  isValid: function isValid(){
+  let valid = false
   let number = []; 
   let pares = [];
   let impares = [];
@@ -11,58 +11,66 @@ const validator = {
   let valor = document.getElementById("cardNumber").value; //0btener data cc number
   
   for (var i = 0; i < valor.length; i++) {
-    number.push(+valor.charAt(i));
+    number.push(+valor.charAt(i)); //pushear la data a la variable number
   }
-  number.reverse();
+  number.reverse(); //voltea el num al revés 
 
   for (let i = 0; i < number.length; i++) {
-    //impares
-    if (cont % 2 !== 0) {
+    
+    if (cont % 2 !== 0) {        //impares
       impares.push(number[i]);
     } else {
-      pares.push(number[i] * 2);
+      pares.push(number[i] * 2); //digit en posicion par *2
     }
-    cont++;
+    cont++;   
   }
   console.log("este es el array de impares " + impares);
-  console.log("este es el array de pares " + pares);
-  console.log(typeof pares[3]);
+  console.log("este es el array de pares " + pares);  //si jala
+  console.log(typeof pares[3]); //si es numero
 
   for (let i = 0; i < pares.length; i++) {
     if (pares[i] >= 10) {
-      let parToString = `${pares[i]}`;
-      let firstChar = parToString.charAt(0);
-      let secondChar = parToString.charAt(1);
+      let parToString = `${pares[i]}`;  //patimos el num de dos digits
+      let firstChar = parToString.charAt(0); //primer digito
+      let secondChar = parToString.charAt(1); //segundo digito
       console.log(secondChar);
-      let sumPar = parseInt(firstChar) + parseInt(secondChar);
-      console.log(typeof sumPar);
-      pares[i] = sumPar;
+      let sumPar = parseInt(firstChar) + parseInt(secondChar); //sumamos ambos num
+      console.log(typeof sumPar);  //comprobamos que si es num
+      pares[i] = sumPar; //igualamos primer variable de pares a variable de suma
     } else {
       console.log("nada");
     }
   }
-  console.log(pares);
+  console.log(pares); 
 
-  let arrFinal = pares.concat(impares);
+  let arrFinal = pares.concat(impares);  //concatenamos ambas varables con todos los digitos
   console.log(arrFinal);
 
-  for (let i = 0; i < arrFinal.length; i++) {
-    //se suma todo y se calcula
-    sumTotal += arrFinal[i] % 10;
+  for (let i = 0; i < arrFinal.length; i++) { 
+    sumTotal += arrFinal[i] % 10;  //se suma todo y se calcula 
   }
   console.log(sumTotal);
-  sumTotal = sumTotal % 10;
+  sumTotal = sumTotal % 10; //usamos el modulo para verificar que el residuo sea 0
   console.log(sumTotal);
   if (sumTotal === 0) {
-    return alert("Your credit card is valid. ");
+     alert("Your credit card is valid. ")
+    valid = true; //valida
+    console.log(valid);
   } else {
-    return alert("Your credit card is invalid. Please try again. ");
-    
+    alert("Your credit card is invalid. Please try again. "); //invalida
+    valid =false; //invalida
+    console.log(valid);
   }
-
   
 
+
+   }
+     
+  
+
+
 }
-}
+
+
 
 export default validator;
