@@ -1,8 +1,19 @@
+
 const validator = {
 
-  
-   maskify: valor => valor.slice(0, -4).replace(/./g, "#") + valor.slice(-4),
-  
+     maskify: function maskify (){
+         let valor = document.getElementById("cardNumber").value;
+         let lastFour = valor.substr(-4);
+         let maskNumbers = valor.substr(0, valor.length -4)
+          .replace(/\d/g, "#")
+          .replace(/\D/g, "#");
+             valor = `${maskNumbers}${lastFour}`;
+       document.getElementById("cardNumber").value = valor;
+         console.log(valor);
+
+         return valor;
+     },
+
   //función para comenzar a validar el cc number
   isValid: function isValid(){
   let valid = false

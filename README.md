@@ -6,8 +6,7 @@ El proyecto consiste en crear una función que permita al usuario validar un nú
 
 -PROTOTIPO FINAL-
 
-![Protoitpo final](https://www.figma.com/file/sw3mtx8zqlUt62RL4ZSsSh/CHECK-OUT-CARD-VALIDATION?node-id=0%3A1)
-
+![Protoitpo final](
 -INVESTIGACION UX-
 
 i. Los usuarios son tod@s aquell@s que tengan acceso a un dispositivo, sea móvil u ordenador y a internet.
