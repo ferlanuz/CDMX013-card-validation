@@ -1,24 +1,34 @@
 # Proyecto Tarjeta de crédito válida
 
--RESUMEN-
+## Resumen del Proyecto
+***
+-El proyecto que realicé es una app web, donde le permita al usuari@ introducir un número de tarjeta de crédito y le premita validar dicho número de tarjeta.
+***
+### Imagen Final de Proyecto
+***
 
-El proyecto consiste en crear una función que permita al usuario validar un número de tarjeta de crédito.
+***
+### Investigación UX:
+***
+-Los usuari@s de este producto es cualquier person@ que tenga acceso a internet y que desee comprar cualquier producto o servicio online (e-commerce).
+-El producto permite al usuari@ hacer uso de su tarjeta de crédito para compras en línea.
+***
+### Primer Prototipo en Papel
+*** 
+![](<./prototipo papel.jpeg>)***
+***
+### Resumen de feedback
+***
+-El feedback que recibí de mis compañeras de squad, fueron unicamente realizar cambios en la alineación de algunos elementos,cambiar el tamaño del botón de validar.
+***
+### Imagen del prototipo final
+***
+![](<./PROTOTIPO FINAL.png>)
+***
+### Maquetación Descriptiva de HTML y CSS
+***
 
--PROTOTIPO FINAL-
 
-![Protoitpo final](
--INVESTIGACION UX-
-
-i. Los usuarios son tod@s aquell@s que tengan acceso a un dispositivo, sea móvil u ordenador y a internet.
-
-ii. El producto (web app) permite validar una tarjeta de crédito, para poder realizar cualquier compra, de cuaquier tipo, dentro de cualquier sitio onine (ej: ecommerce, etc).
-
-iii. Prototipo en papel (img)
-
-iv. -FEEDBACK-
-Al realizar elprimer prototipo en papel, no solicité feedback, cuando realicé mi primera demo unicamente se me solicitó realizar el protipo en Figma.
-Después de crear el prototipo en Figma,solicité feedback con mis compañeras y los comentarios fueron positivos, las sugerencias fueron que cambiara un poco el margen del logo, el background color del product view y hacer el botón de validar un poc mas grande.
- 
 
 
 

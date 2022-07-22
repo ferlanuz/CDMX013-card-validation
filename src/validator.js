@@ -1,17 +1,18 @@
 
 const validator = {
 
-     maskify: function maskify (){
-         let valor = document.getElementById("cardNumber").value;
-         let lastFour = valor.substr(-4);
-         let maskNumbers = valor.substr(0, valor.length -4)
+     //MASKIFY
+         maskify: function maskify (){
+         let copiaNum = document.getElementById("cardNumber").value;
+         let lastFour = copiaNum.substr(-4);
+         let maskNumbers = copiaNum.substr(0, copiaNum.length -4)
           .replace(/\d/g, "#")
           .replace(/\D/g, "#");
-             valor = `${maskNumbers}${lastFour}`;
-       document.getElementById("cardNumber").value = valor;
-         console.log(valor);
+             copiaNum = `${maskNumbers}${lastFour}`;
+       document.getElementById("cardNumber").value = copiaNum;
+         console.log(copiaNum);
 
-         return valor;
+         return copiaNum;
      },
 
   //función para comenzar a validar el cc number
@@ -45,7 +46,7 @@ const validator = {
 
   for (let i = 0; i < pares.length; i++) {
     if (pares[i] >= 10) {
-      let parToString = `${pares[i]}`;  //patimos el num de dos digits
+      let parToString = `${pares[i]}`;  //partimos el num de dos digits
       let firstChar = parToString.charAt(0); //primer digito
       let secondChar = parToString.charAt(1); //segundo digito
       console.log(secondChar);

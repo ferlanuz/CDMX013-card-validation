@@ -4,8 +4,8 @@ import validator from './validator.js';
       //dar evento al botón validar
      document.getElementById("btn").addEventListener("click", validator.isValid);
 
-      //
-     document.getElementById("cardNumber").addEventListener("keyup", validator.maskify);
+      //evento del input 
+     document.getElementById("btn").addEventListener("click", validator.maskify);
      
      
 
