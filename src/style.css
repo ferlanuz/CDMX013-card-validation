@@ -13,9 +13,12 @@ footer{
     bottom: 0;
     left: 0;
     position: fixed;
-    height: 15%;
+    height: 100px;
     width: 100%;
     text-align: center;
+}
+header{
+    height: 100px;
 }
 
 h1{
@@ -46,12 +49,7 @@ header{
     padding-top: 2%;
 }
 
-hr{
-    border: 2px solid gray;
-    margin-left: 24%;
-    margin-bottom: -0.7%;
-    width: 5%;
-}
+
 
 label{
     margin-top: 2%;
@@ -65,41 +63,87 @@ label{
     justify-content: space-evenly;
 }
 
-
-
-.card-info{
-    background-color: #BEA29E;
-    height: 40%;
-    max-height: 100%;
-    text-align: center;
-    width: 40%;
+.bottom{
+    height: 60px;
 }
 
-.carrito{
-    display: flex;justify-content: right;
-    align-items: center;
-    
-    height: 10%;
-    margin-left: 80%;
+.card{
+    background-image: url(https://i0.wp.com/i.pinimg.com/originals/2c/b5/12/2cb5124e43ba8a7f09f1088eaa8a208b.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    color: #73777B;
+    height: 250px;
+    justify-content: space-between;
+    max-width: 350px;
+    min-height: 100px;
+    opacity: .9;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+}
+
+
+
+.cardInfo{
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 315px;
+   width: 350px;
+   
+
+}
+
+.copyright{
     margin-top: 0;
-    max-width: 100%;
-    max-height: 100%;
-    mix-blend-mode: multiply;
-    width: 10%;
-
 }
 
+.chip{
+    max-height: 50px;
+    height: 50px;
+    margin-top: 0;
+}
 
-.cart{
-    justify-content: flex-end;
-    display: flexbox;
+.front .grupo .label{
+    font-size: 18px;
+    color: #413F42;
+}
+
+.expiracion{
+    display: flex;
+    justify-content: space-between;
     
 }
 
-.payment{
-    margin-bottom: 2%;
-    margin-top: 5%;
+
+.front .grupo .name,
+.front .grupo .number,
+.font .grupo .expiracion{
+    font-size: 15px;
+    text-transform: uppercase;
 }
+
+/* Logo visa */
+.visa{
+    height: 100px;
+    text-align: right;
+    min-height: 50px;
+}
+
+.front .logo-marca{
+    display: flex;
+    height: 50px;
+    justify-content: end;
+    margin-bottom: 0;
+    max-height: 50;
+}
+
+/* ------- */
+
+
 .price{
     font-family: "Cormorant SC", serif;
     font-size: 2rem;
@@ -109,11 +153,14 @@ label{
 
 
 .product-view{
-    background-color: rgba(245, 245, 245, 0.75);
+    background-color: #BEA29E;
+    border-radius: 10px;
     height: 40%;
+    position: relative;
     text-align: center;
+    top: -130px;
     margin-top: 0;
-    width: 40%;
+    width: 350px;
 }
 
 .top-container{
@@ -130,34 +177,11 @@ label{
     margin-bottom: 3%;
 }
 
-.social{
-    margin-top: 3%;
-}
-
-.visa, .mastercard, .amex{
-    
-    justify-content: space-around;
-    filter: brightness(1.1);
-    margin-top: 0;
-    max-width: 100%;
-    mix-blend-mode: multiply;
-    margin-bottom: 3%;
-    margin-left: 2%;   
-}
-
-#btn{
-    margin-bottom: 3%;
-    margin-top: 3%;
-    font-size: large;
-
-}
 #brand{
     margin-bottom: 0;
     margin-left: 8%;
 }
-#cardName{
-    margin-bottom: 2%;
-}
+
 
 #footer{
     border: 1px solid gray;
@@ -166,12 +190,7 @@ label{
     margin-left: 0;
 }
 
-#prodstyle{
-    border: 2px solid gray;
-    margin-bottom: 0;
-    margin-left: 71%;
-    width: 5%;
-}
+
 
 #dot{
   border: dotted #D9D9D9 6px;
@@ -186,3 +205,70 @@ label{
   width: 4%;
   margin: auto;
 }
+
+/* Boton de abrir form */
+
+.contenedor-btn .abrir-form{
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #BEA29E;
+    color: #FAFAFA;
+    position: relative;
+    top: -25px;
+    left: 170px;
+    z-index: 3;
+}
+
+.contenedor-btn .abrir-form:hover{
+    background: #73777B;
+}
+.contenedor-btn .abrir-form:active{
+    transform: rotate(90deg); 
+}
+
+/* Formulario desplegable*/
+
+.form-card{
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    width: 450px;
+    padding: 120px 30px 20px 30px;
+    position: relative;
+    
+    top: -150px;
+    left: -60px;
+    z-index: 1;  
+}
+
+.form-card label{
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    display: inline;
+    margin-top: 10px;
+    
+}
+
+.form-card input{
+    border: 2px solid #CED6E0;
+    height: 25px;
+    width: 100%;
+}
+/* --------------- */
+
+/* Boton validar */
+
+#btn{
+    margin-top: 15px;
+    font-size: medium;
+
+}
+
+/* -------- */
+
+
+

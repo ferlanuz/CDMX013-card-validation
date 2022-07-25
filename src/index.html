@@ -23,10 +23,8 @@
     </header>
     
     <main>
-
-      <hr>
-      <hr id="prodstyle">
-      <div class="big-p">
+      
+       <div class="big-p">
      
        <div class="product-view">
         <h3>YOU ARE PURCHASING</h3><br>
@@ -36,46 +34,76 @@
         <img class="serum" src="https://img.freepik.com/free-photo/grapefruit-oil-serum-bottle-put-white-marble-background_1150-28088.jpg?t=st=1658015439~exp=1658016039~hmac=7b83ad9657def74bb22a89a04be609eaf2afec5ca583ec6b3720ba553bbb64fe&w=996" alt="serum">
         </div>
         
-       <div class="card-info">
-         <h2 class="checkout">Check Out</h2>
-         <hr id="puntitos">
-         <p class="payment">Select Payment Method</p><br>
-         <img class="visa" src="https://img.icons8.com/ios/50/1A1A1A/visa.png" alt="visa.png">
-         <img class="mastercard" src="https://img.icons8.com/ios/50/000000/mastercard.png" alt="mastercard.png">
-         <img class="amex"src="https://img.icons8.com/ios/50/000000/amex.png" alt="amex.png">
+       <div class="cardInfo">
+         <section class="card" id="card">
+          <div class="front">
+            <div class="logo-marca">
+             <img class="visa" src="visa.png" alt="visa.png">
+            </div>
+            
+            <div class="datos">
+               <img class="chip" src="chip.png" alt="chip.png">
+              <div class="grupo" id="number">
+                <p class="label">Card Number</p>
+                <p class="number">#### #### #### ####</p>
+              </div>
+ 
+              <div class="flexbox">
+                <div class="grupo" id="name">
+                  <p class="label">Name</p>
+                  <p class="name">Jhon Doe</p>
+                </div>
+              </div>  
+            </div>
+          </div>
 
-          <form>
-          <label for="card name">Cardholder Name</label><br>
-          <input type="text" id="cardName" placeholder="Name"><br>
+         </section>
 
-          <label for="card number">Card Number</label><br>
-          <input type="text" id="cardNumber" placeholder="Number" maxlength="16" required><br>
+         <div class="contenedor-btn">
+           <button class="abrir-form" id="btnAbrirForm">
+            <i class="fa-solid fa-plus"></i>
+           </button>
+         </div>
+            <div>
+             <form action="" id="form-card" class="form-card">
+              <div class="form-datos">
+              <label for="cardName">Name</label>
+              <input type="text" id="cardName">
+             </div>
 
-          <button type="button" id="btn">Validar</button>  
-          </form>
-        </div>
-
-       </div>
-
-    </main>
-
-    <footer>
-       <hr id="footer">
-      <div>
-        <a href="https://www.facebook.com/profile.php?id=100078502457953">
-          <img class="social" src="https://img.icons8.com/doodle/30/000000/facebook-new.png" alt="facebook">
-        </a>
-        <a href="https://www.instagram.com/fer_lanuz/?hl=en">
-          <img class="social" src="https://img.icons8.com/office/30/000000/instagram-new.png" alt="instagram">
-        </a>
-       <a href="https://twitter.com/FerLanuz">
-        <img class="social" src="https://img.icons8.com/office/30/000000/twitter.png" alt="twitter">
-       </a>
-      </div>
-      <p>2022 © Lanuz Corp. All rights reserved</p>
-
-    </footer>   
+              <div class="form-datos">
+              <label for="cardNumber">Card Number</label>
+              <input type="text" id="cardNumber" maxlength="16"><br>
       
+              <button type="button" id="btn">Card Validation</button> 
+
+              </div> <br>
+    
+              </form>
+            </div>
+          </div> 
+         </div>
+        </main>
+
+       <footer>
+         <hr id="footer">
+         <div class="bottom">
+         <a href="https://www.facebook.com/profile.php?id=100078502457953">
+          <img class="social" src="https://img.icons8.com/doodle/30/000000/facebook-new.png" alt="facebook">
+         </a>
+         <a href="https://www.instagram.com/fer_lanuz/?hl=en">
+          <img class="social" src="https://img.icons8.com/office/30/000000/instagram-new.png" alt="instagram">
+         </a>
+         <a href="https://twitter.com/FerLanuz">
+         <img class="social" src="https://img.icons8.com/office/30/000000/twitter.png" alt="twitter">
+         </a>
+         </div>
+
+          <p class="copyright">2022 © Lanuz Corp. All rights reserved</p>
+
+        </footer>   
+      
+    <script src="https://kit.fontawesome.com/4294687ac5.js" crossorigin="anonymous"></script>
     <script src="index.js" type="module"></script>
   </body>
 </html>

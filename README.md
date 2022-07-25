@@ -6,7 +6,7 @@
 ***
 ### Imagen Final de Proyecto
 ***
-
+![](<./imgfinal>)
 ***
 ### Investigación UX:
 ***
