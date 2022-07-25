@@ -1,37 +1,107 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Encode+Sans:wght@300&family=Montserrat:wght@100;500&family=Open+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Encode+Sans:wght@300&family=Montserrat:wght@100;500&family=Open+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <h4 id="brand">K A B O</h4>
+        <h1>Skincare</h1> 
+    </header>
+    
+    <main>
+      
+       <div class="big-p">
+       <div class="product-view">
+        <h3>YOU ARE PURCHASING</h3><br>
+        <hr id="dot">
+        <h2 class="product-name"><span>Lava Cake</span></h2><br>
+        <p class="price"><span>$170</span></p><br>
+        <img class="serum" src="https://img.freepik.com/free-photo/grapefruit-oil-serum-bottle-put-white-marble-background_1150-28088.jpg?t=st=1658015439~exp=1658016039~hmac=7b83ad9657def74bb22a89a04be609eaf2afec5ca583ec6b3720ba553bbb64fe&w=996" alt="serum">
+        </div>
+        
+       <div class="cardInfo">
+         <section class="card" id="card">
+          <div class="front">
+            <div class="logo-marca">
+             <img class="visa" src="visa.png" alt="visa.png">
+            </div>
+            
+            <div class="datos">
+               <img class="chip" src="chip.png" alt="chip.png">
+              <div class="grupo" id="number">
+                <p class="label">Card Number</p>
+                <p class="number">#### #### #### ####</p>
+              </div>
+ 
+              <div class="flexbox">
+                <div class="grupo" id="name">
+                  <p class="label">Name</p>
+                  <p class="name">Jhon Doe</p>
+                </div>
+              </div>  
+            </div>
+          </div>
 
-You can use the [editor on GitHub](https://github.com/ferlanuz/CDMX013-card-validation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+         </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+         <div class="contenedor-btn">
+           <button class="abrir-form" id="btnAbrirForm">
+            <i class="fa-solid fa-plus"></i>
+           </button>
+         </div>
+            <div>
+             <form action="" id="form-card" class="form-card">
+              <div class="form-datos">
+              <label for="cardName">Name</label>
+              <input type="text" id="cardName">
+             </div>
 
-### Markdown
+              <div class="form-datos">
+              <label for="cardNumber">Card Number</label>
+              <input type="text" id="cardNumber" maxlength="16"><br>
+      
+              <button type="button" id="btn">Card Validation</button> 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+              </div> <br>
+    
+              </form>
+            </div>
+          </div> 
+         </div>
+        </main>
 
-```markdown
-Syntax highlighted code block
+       <footer>
+         <hr id="footer">
+         <div class="bottom">
+         <a href="https://www.facebook.com/profile.php?id=100078502457953">
+          <img class="social" src="https://img.icons8.com/doodle/30/000000/facebook-new.png" alt="facebook">
+         </a>
+         <a href="https://www.instagram.com/fer_lanuz/?hl=en">
+          <img class="social" src="https://img.icons8.com/office/30/000000/instagram-new.png" alt="instagram">
+         </a>
+         <a href="https://twitter.com/FerLanuz">
+         <img class="social" src="https://img.icons8.com/office/30/000000/twitter.png" alt="twitter">
+         </a>
+        </div>
+          <p class="copyright">2022 © Lanuz Corp. All rights reserved</p>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ferlanuz/CDMX013-card-validation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        </footer>   
+      
+    <script src="https://kit.fontawesome.com/4294687ac5.js" crossorigin="anonymous"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
