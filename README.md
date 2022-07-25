@@ -6,7 +6,7 @@
 ***
 ### Imagen Final de Proyecto
 ***
-![](<./imgfinal>)
+![](<./imgfinal.png>)
 ***
 ### Investigación UX:
 ***
@@ -15,7 +15,7 @@
 ***
 ### Primer Prototipo en Papel
 *** 
-![](<./prototipo papel.jpeg>)***
+![](<./prototipo papel.jpeg>)
 ***
 ### Resumen de feedback
 ***
