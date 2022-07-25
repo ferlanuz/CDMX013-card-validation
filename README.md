@@ -3,7 +3,7 @@
 ## Resumen del Proyecto
 ***
 -El proyecto que realicé es una app web, donde le permita al usuari@ introducir un número de tarjeta de crédito y le premita validar dicho número de tarjeta.
-***
+
 ### Imagen Final de Proyecto
 ***
 ![](<./imgfinal.png>)
